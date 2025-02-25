@@ -33,9 +33,7 @@ public class Calculus {
     }
 }
 
-
-
-class Differentiation {
+class Differentiation extends AdvancedMath{
 
     // Parse a polynomial string into a list of terms
     static List<Calculus> parsePolynomial(String polynomial) {
@@ -96,3 +94,4 @@ class Differentiation {
         return result.toString();
     }
 }
+
